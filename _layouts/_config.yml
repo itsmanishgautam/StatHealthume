@@ -28,7 +28,7 @@ highlighter: rouge
 # ===============================
 # Permalinks for posts/articles
 # ===============================
-permalink: /:categories/:title/  # e.g., /nutrition/keys-to-a-happy-childhood/
+permalink: /:title/  # e.g., /nutrition/keys-to-a-happy-childhood/
 
 # ===============================
 # Build settings
