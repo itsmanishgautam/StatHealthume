@@ -1,0 +1,49 @@
+<header class="bg-light py-2 border-bottom">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-none d-md-block small">
+      <span class="me-3"><i class="fas fa-check-circle text-success"></i> Medically Reviewed</span>
+      <span class="me-3"><i class="fas fa-user-md text-primary"></i> Expert Verified</span>
+      <span><i class="fas fa-calendar-check text-info"></i> Last Updated: February 19, 2026</span>
+    </div>
+    <div class="text-end small">
+      <a href="privacy.html" class="text-decoration-none text-muted">Privacy Policy</a>
+    </div>
+  </div>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">healthume</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
+        <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="toolsDropdown" role="button" data-bs-toggle="dropdown">
+            Tools
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="toolsDropdown">
+            <li><a class="dropdown-item" href="bmi-calculator.html">BMI Calculator</a></li>
+            <li><a class="dropdown-item" href="calorie-calculator.html">Daily Calorie Calculator</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <form class="d-flex" action="search.html" method="GET">
+        <input class="form-control me-2" type="search" name="q" placeholder="Search articles and products..." aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="alert alert-warning alert-dismissible fade show rounded-0 mb-0 text-center" role="alert" id="health-alert">
+  <strong>Health Products:</strong> Find the latest information and updates on our health products.
+  <a href="products.html" class="alert-link">Browse now</a>.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>

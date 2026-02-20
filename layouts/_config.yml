@@ -1,0 +1,48 @@
+# ===============================
+# Healthume Jekyll Site Configuration
+# ===============================
+
+# Site info
+title: "Healthume"
+description: "Health and wellness tips, articles, and products"
+url: ""           # leave empty for local or GitHub Pages
+baseurl: ""       # leave empty unless your site is in a subfolder
+author:
+  name: "Healthume"
+
+# ===============================
+# Directories
+# ===============================
+layouts_dir: _layouts        # where your skeleton/default.html lives
+includes_dir: _includes      # header.html, footer.html, etc.
+collections_dir: _posts      # optional for blog posts in markdown
+assets_dir: assets           # css, js, images
+
+# ===============================
+# Theme & plugins
+# ===============================
+theme: minima                # default Jekyll theme, you can override with your skeleton
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# ===============================
+# Markdown & syntax highlighting
+# ===============================
+markdown: kramdown
+highlighter: rouge
+
+# ===============================
+# Permalinks for posts/articles
+# ===============================
+permalink: /:categories/:title/  # e.g., /nutrition/keys-to-a-happy-childhood/
+
+# ===============================
+# Build settings
+# ===============================
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
