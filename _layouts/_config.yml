@@ -1,8 +1,4 @@
-# ===============================
-# Healthume Jekyll Site Configuration
-# ===============================
 
-# Site info
 title: "Healthume"
 description: "Health and wellness tips, articles, and products"
 url: ""           # leave empty for local or GitHub Pages
@@ -10,9 +6,6 @@ baseurl: ""       # leave empty unless your site is in a subfolder
 author:
   name: "Healthume"
 
-# ===============================
-# Directories
-# ===============================
 layouts_dir: _layouts        # where your skeleton/default.html lives
 includes_dir: _includes      # header.html, footer.html, etc.
 collections_dir: _posts      # optional for blog posts in markdown
